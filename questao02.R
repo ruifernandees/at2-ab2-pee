@@ -23,6 +23,7 @@ enem_mulheres <- enem_escola_mcz[enem_escola_mcz$TP_SEXO == "Feminino", ]
 t.test(enem_homens$NU_NOTA_CN, enem_mulheres$NU_NOTA_CN)
 t.test(enem_homens$NU_NOTA_CH, enem_mulheres$NU_NOTA_CH)
 t.test(enem_homens$NU_NOTA_LC, enem_mulheres$NU_NOTA_LC)
+t.test(enem_homens$NU_NOTA_MT, enem_mulheres$NU_NOTA_MT)
 t.test(enem_homens$NU_NOTA_REDACAO, enem_mulheres$NU_NOTA_REDACAO)
 
 

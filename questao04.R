@@ -24,8 +24,6 @@ nota<-data.frame(
 )
 
 cor(nota)
-#x<-enem_db[ ,c("NU_NOTA_CN", "NU_NOTA_CH", "NU_NOTA_LC", "NU_NOTA_MT", "NU_NOTA_REDACAO")]
-#cor(x)
 
 #A maior correla??o ? entre as disciplinas: Linguagens e c?digos e ci?ncias da natureza.
 
